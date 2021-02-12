@@ -31,8 +31,6 @@ const styles = StyleSheet.create (
         flex: 1, 
         backgroundColor: "red",
         
-
-    
      },
      titleText:
      {
