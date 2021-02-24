@@ -14,29 +14,33 @@ class CoinsScreen extends Component {
     {
         return (
             <View style={styles.container}> 
-                <Text style={styles.titleText}>
+               
+               <Text style={styles.titleText}>
                     CoinsScreen
                 </Text>
-                <Pressable style= {styles.btn} onPress={this.handlePress}>
+               
+               <Pressable style= {styles.btn} onPress={this.handlePress}>
                     <Text style= {styles.btnText}>Ir a detail</Text>                   
                 </Pressable>
-            </View>
+           
+           </View>
         );
     }    
 }
 
-const styles = StyleSheet.create (
-    {
-    container: {
+const styles = StyleSheet.create 
+(
+     {  
+     container: {
         flex: 1, 
-        backgroundColor: "red",
         
-     },
-     titleText:
-     {
-         color:"#fff",
-         textAlign: "center",
-     },
+        
+    },
+        
+    titleText: {
+        color:"#fff",
+        textAlign: "center",
+    },
      btn: {
          padding: 8,
          backgroundColor: "blue",
